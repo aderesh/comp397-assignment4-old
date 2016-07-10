@@ -1,0 +1,24 @@
+{
+  "name": "vs code",
+  "authors": [
+    "andrii deresh <deresh.andrew@hotmail.com>"
+  ],
+  "description": "BoillerPlate397",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "EaselJS": "easeljs#^0.8.2",
+    "tween.js": "tweenjs#^16.3.4",
+    "SoundJS": "^0.6.2",
+    "preloadjs": "*"
+  }
+}
