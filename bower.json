@@ -1,9 +1,9 @@
 {
-  "name": "vs code",
+  "name": "comp397-s2016-lesson8",
   "authors": [
-    "andrii deresh <deresh.andrew@hotmail.com>"
+    "Tom Tsiliopoulos <tsiliopoulos@hotmail.com>"
   ],
-  "description": "BoillerPlate397",
+  "description": "BoilerPlate for COMP397",
   "main": "",
   "license": "MIT",
   "homepage": "",
@@ -17,8 +17,8 @@
   ],
   "dependencies": {
     "EaselJS": "easeljs#^0.8.2",
-    "tween.js": "tweenjs#^16.3.4",
     "SoundJS": "^0.6.2",
-    "preloadjs": "*"
+    "TweenJS": "^0.6.2",
+    "PreloadJS": "^0.6.2"
   }
 }

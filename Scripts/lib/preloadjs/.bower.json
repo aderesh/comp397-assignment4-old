@@ -1,39 +1,45 @@
 {
-  "name": "preloadjs",
-  "homepage": "https://github.com/CristianMR/preloadjs",
+  "name": "PreloadJS",
+  "version": "0.6.2",
+  "homepage": "https://github.com/CreateJS/PreloadJS",
   "authors": [
-    "Cristian Martín Rios <matrixcmr@gmail.com>",
-    "Heber Lopez <heberlopez@gmail.com>"
+    "gskinner",
+    "lannymcnie",
+    "wdamien"
   ],
-  "description": "PreloadJS load your application scripts for high speed in future connections.",
-  "main": "./dist/preload.js",
+  "description": "PreloadJS makes preloading assets & getting aggregate progress events easier in JavaScript. It uses XHR2 when available, and falls back to tag-based loading when not. Part of the CreateJS suite of libraries.",
+  "main": "lib/preloadjs-0.6.2.combined.js",
   "keywords": [
     "preload",
-    "preloadjs",
-    "javascript",
-    "module",
-    "localStorage",
-    "CristianMR"
+    "xhr",
+    "createjs"
   ],
   "license": "MIT",
   "ignore": [
     "**/.*",
+    "_assets",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    ".bower.json",
+    "build",
+    "docs",
+    "examples",
+    "extras",
+    "icon.png",
+    "LICENSE.txt",
+    "README.md",
+    "src",
+    "tests",
+    "VERSIONS.txt"
   ],
-  "dependencies": {
-    "lodash": "~2.4.1"
-  },
-  "_release": "d99a63abe1",
+  "_release": "0.6.2",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "d99a63abe19bd0d1dcac694827d23d9de3d8c085"
+    "type": "version",
+    "tag": "0.6.2",
+    "commit": "23db3b6eb41fbc95f7ef0fbb82d3869d8f509a32"
   },
-  "_source": "https://github.com/CristianMR/preloadjs.git",
-  "_target": "*",
-  "_originalSource": "preloadjs",
+  "_source": "https://github.com/CreateJS/PreloadJS.git",
+  "_target": "^0.6.2",
+  "_originalSource": "PreloadJS",
   "_direct": true
 }
